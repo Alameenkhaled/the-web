@@ -8,28 +8,28 @@
   <meta name="keywords" content="real estate AI, blockchain tokenization, digital transformation, property technology, Dubai real estate, OwenAI, OwenOS">
   <meta name="author" content="Al Ameen Almajali">
   <meta name="robots" content="index, follow">
-  
+
   <!-- Open Graph -->
   <meta property="og:title" content="Al Ameen Almajali — Digital Transformation in Real Estate">
   <meta property="og:description" content="Executive profile of Al Ameen Almajali — pioneering digital transformation in real estate through AI and blockchain technologies.">
   <meta property="og:image" content="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true">
   <meta property="og:url" content="https://yourdomain.com">
   <meta property="og:type" content="website">
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Al Ameen Almajali — Digital Transformation Expert">
   <meta name="twitter:description" content="Transform real estate with AI and blockchain technologies">
   <meta name="twitter:image" content="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true">
-  
+
   <!-- Preload critical resources -->
   <link rel="preload" href="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true" as="image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -48,230 +48,71 @@
     }
   }
   </script>
-  
+
   <style>
-    :root{
-      --ink:#0e1830;
-      --muted:#5c6b88;
-      --bg1:#0e1533;
-      --bg2:#172049;
-      --accent:#c9a227;
-      --accent-soft:#eadb9b;
-      --paper:#f6f9ff;
-      --primary-color: #0a192f;
-      --text-color: #ccd6f6;
-      --heading-color: #e6f1ff;
-      --background-color: #020c1b;
-      --card-background: #112240;
+    :root {
+      --tech-trust-dark-blue: #1A2A4A;
+      --tech-trust-light-dark-blue: #2C3E50;
+      --tech-trust-vibrant-blue: #3498DB;
+      --tech-trust-teal: #1ABC9C;
+      --tech-trust-purple: #9B59B6;
+      --tech-trust-white: #FFFFFF;
+      --tech-trust-light-grey: #ECF0F1;
+      --tech-trust-medium-grey: #BDC3C7;
     }
-    html,body{height:100%}
-    body{
-      font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,sans-serif;
-      background:linear-gradient(180deg,var(--bg1),var(--bg2))
+
+    html, body {
+      height: 100%;
+      background-color: var(--tech-trust-dark-blue);
+      color: var(--tech-trust-light-grey);
+      font-family: 'Roboto', sans-serif;
     }
-    .container{max-width:1200px}
-    
-    .font-display {
-      font-family: 'Poppins', sans-serif;
+
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
     }
-    
-    .gold-text{
-      background: linear-gradient(92deg, var(--accent), var(--accent-soft) 60%, var(--accent));
-      -webkit-background-clip:text; background-clip:text; color:transparent;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Inter', sans-serif;
+      color: var(--tech-trust-white);
     }
-    .btn-primary{background:var(--accent); color:#0b0f1e}
-    .btn-primary:hover{filter:brightness(1.08)}
-    .btn-ghost{color:var(--accent); border:1px solid rgba(201,162,39,.45)}
-    .btn-ghost:hover{background:rgba(201,162,39,.08)}
-    .card{
-      background: rgba(255,255,255,.06);
-      backdrop-filter: blur(6px);
-      border:1px solid rgba(255,255,255,.14);
-      box-shadow: 0 10px 30px rgba(3,7,18,.35), inset 0 1px 0 rgba(255,255,255,.04);
-    }
-    .paper{ background: var(--paper); color: var(--ink); }
-    .paper-card{
-      background: #ffffff;
-      border: 1px solid rgba(14,24,48,0.06);
-      box-shadow: 0 8px 24px rgba(14,24,48,0.08);
-    }
-    .ring-gold{box-shadow:0 0 0 2px rgba(201,162,39,.35), 0 10px 25px rgba(201,162,39,.22), inset 0 0 24px rgba(201,162,39,.18)}
-    .shine{position:relative; overflow:hidden; isolation:isolate}
-    .shine::after{content:""; position:absolute; inset:-220% -60%; background:linear-gradient(120deg, transparent 40%, rgba(255,255,255,0.35), transparent 60%); transform:translateX(-25%); transition:transform .8s ease}
-    .shine:hover::after{transform:translateX(25%)}
-    .lightbox-img{max-height:80vh; max-width:88vw; object-fit:contain}
-    .balance{text-wrap:balance}
-    .section-title{font-weight:800; font-family: 'Poppins', sans-serif;}
-    
-    .midband{position:relative; overflow:hidden}
-    .midband::before{
-      content:""; position:absolute; inset:0;
-      background:url('https://github.com/Alameenkhaled/OwenAI/blob/main/office%20relax.png?raw=true') center/cover no-repeat;
-      filter:brightness(.6);
-      z-index:-2;
-    }
-    .midband::after{
-      content:""; position:absolute; inset:0; background:rgba(8,12,28,.7); z-index:-1;
-    }
-    
-    .hero-glow{
-      background:
-        radial-gradient(900px 500px at 90% -10%, rgba(201,162,39,0.15), transparent 60%),
-        radial-gradient(700px 400px at 10% 0%, rgba(88,135,255,0.12), transparent 55%);
-    }
-    
-    .divider{
-      height:1px;
-      background: linear-gradient(90deg, transparent, rgba(201,162,39,.35), transparent);
-    }
-    
-    .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease}
-    .reveal-in{opacity:1; transform:translateY(0)}
-    
-    .authority-section {
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .authority-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
-    
-    .authority-card {
-      background-color: var(--card-background);
-      border-radius: 8px;
-      overflow: hidden;
-      border: 1px solid #233554;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .authority-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
-    
-    .testimonial-card {
-      background-color: var(--card-background);
-      border-radius: 8px;
-      padding: 2rem;
-      border-left: 4px solid var(--accent);
-      position: relative;
-    }
-    
-    .testimonial-card::before {
-      content: """;
-      position: absolute;
-      top: 0.5rem;
-      left: 1rem;
-      font-size: 80px;
-      color: var(--accent);
-      opacity: 0.2;
-      font-family: serif;
-      line-height: 1;
-    }
-    
-    .trust-bar {
-      background-color: var(--card-background);
-      padding: 2rem 0;
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
       text-align: center;
-      border-top: 1px solid #233554;
-      border-bottom: 1px solid #233554;
+      transition: all 0.3s ease;
+      cursor: pointer;
     }
-    
-    .trust-bar .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 2rem 3rem;
+
+    .btn-primary {
+      background-color: var(--tech-trust-vibrant-blue);
+      color: var(--tech-trust-white);
     }
-        
-    .final-cta {
-      background-color: var(--card-background);
-      text-align: center;
-      padding: 4rem 1.5rem;
+
+    .btn-primary:hover {
+      filter: brightness(1.1);
     }
-    
-    .final-cta h2 {
-      margin-bottom: 1rem;
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--tech-trust-white);
+      border: 1px solid var(--tech-trust-white);
     }
-    
-    .social-links {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      margin-bottom: 1rem;
-      padding-left: 0;
-    }
-    
-    .social-links a {
-      font-size: 1.5rem;
-    }
-    
-    /* Accessibility improvements */
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-    
-    a:focus, button:focus {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-    
-    /* Reduced motion support */
-    @media (prefers-reduced-motion: reduce) {
-      * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-    
-    /* Mobile optimizations */
-    @media (max-width: 768px) {
-      .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-      
-      .hero-glow {
-        background:
-          radial-gradient(400px 300px at 90% -10%, rgba(201,162,39,0.15), transparent 60%),
-          radial-gradient(300px 200px at 10% 0%, rgba(88,135,255,0.12), transparent 55%);
-      }
-      
-      /* Improve touch targets */
-      button, a {
-        min-height: 44px;
-        min-width: 44px;
-      }
-    }
-    
-    /* Print styles */
-    @media print {
-      .no-print { display: none !important; }
-      body { background: white !important; color: black !important; }
-    }
-    
-    /* Ensure images don't cause layout shift */
-    img {
-      max-width: 100%;
-      height: auto;
+
+    .btn-secondary:hover {
+      background-color: var(--tech-trust-white);
+      color: var(--tech-trust-dark-blue);
     }
   </style>
 </head>
-<body id="top" class="text-white hero-glow">
+<body id="top" class="text-white">
 
   <!-- Skip to main content for accessibility -->
   <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-white text-black p-2 z-50 no-print">Skip to main content</a>
@@ -310,74 +151,63 @@
   <!-- Main Content -->
   <main id="main-content">
     <!-- Hero Section -->
-    <section id="about" class="relative overflow-hidden pt-16">
-      <!-- Background video -->
-      <div class="absolute inset-0 -z-10">
-        <video id="heroVideo" class="w-full h-full object-cover"
-               autoplay muted loop playsinline preload="metadata" loading="lazy"
-               poster="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true">
-          <source src="https://github.com/Alameenkhaled/New-Alameen/raw/refs/heads/main/Cinematic_K_Slow_Motion_Video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div class="absolute inset-0 bg-[rgba(8,12,28,0.60)]"></div>
-        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0e1533] to-transparent"></div>
+<section id="about" class="relative overflow-hidden pt-16">
+  <!-- Background video -->
+  <div class="absolute inset-0 -z-10">
+    <video id="heroVideo" class="w-full h-full object-cover"
+           autoplay muted loop playsinline preload="metadata" loading="lazy"
+           poster="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true">
+      <source src="https://github.com/Alameenkhaled/New-Alameen/raw/refs/heads/main/Cinematic_K_Slow_Motion_Video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="absolute inset-0 bg-gradient-to-t from-[rgba(26,42,74,0.8)] to-[rgba(26,42,74,0.5)]"></div>
+  </div>
+
+  <div class="container mx-auto px-6 py-12 lg:py-16 flex flex-col lg:flex-row items-center">
+    <!-- Text + CTAs -->
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <h1 class="text-4xl sm:text-5xl font-bold leading-tight text-white">
+        Turn Real Estate Complexity Into <span style="color: var(--tech-trust-teal);">Competitive Advantage</span>
+      </h1>
+      <p class="mt-4 text-lg text-tech-trust-light-grey">
+        Leveraging blockchain and AI to build resilient, efficient, and profitable real estate ecosystems.
+      </p>
+
+      <!-- CTAs -->
+      <div class="mt-7 flex flex-wrap gap-3 justify-center lg:justify-start">
+        <a href="#" class="btn btn-primary">
+          Book Free Strategy Session
+        </a>
+        <a href="#solutions" class="btn btn-secondary">
+          See Solutions
+        </a>
       </div>
 
-      <div class="container mx-auto px-6 py-12 lg:py-16 grid lg:grid-cols-2 gap-10 items-center">
-        <!-- Portrait -->
-        <div class="order-2 lg:order-1">
-          <div id="heroPortraitWrap" class="relative rounded-3xl card overflow-hidden will-change-transform max-w-sm mx-auto">
-            <div class="absolute -inset-6 opacity-25 blur-2xl" style="background: radial-gradient(60% 60% at 50% 50%, rgba(201,162,39,0.28), transparent 70%);"></div>
-            <div class="relative w-full aspect-[410/460] overflow-hidden">
-              <img id="heroPortrait" src="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true"
-                   alt="Al Ameen Almajali — Professional Headshot for Digital Transformation Expert" class="absolute inset-0 w-full h-full object-cover will-change-transform"
-                   onerror="this.src='https://placehold.co/410x460/112240/ccd6f6?text=Al+Ameen'; this.alt='Al Ameen Professional Headshot';">
-            </div>
-          </div>
+      <!-- KPIs -->
+      <div class="mt-8 grid grid-cols-3 gap-3 max-w-lg mx-auto lg:mx-0">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-white">167%</div>
+          <div class="text-xs mt-1 text-tech-trust-medium-grey">Revenue Growth</div>
         </div>
-        <!-- Text + CTAs -->
-        <div class="order-1 lg:order-2">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[rgba(201,162,39,.45)] bg-white/5 mb-4 reveal">
-            <span class="w-2.5 h-2.5 rounded-full bg-[var(--accent)]"></span>
-            <span class="text-xs tracking-wide uppercase text-[var(--accent)]">Architect of Dubai's AED 90B PropTech Initiative</span>
-          </div>
-          <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight balance text-white reveal">
-            Turn Real Estate Complexity Into <span class="gold-text">Competitive Advantage</span>
-          </h1>
-          <p class="mt-4 text-lg text-white/90 reveal">
-            I help <strong>real estate leaders, developers, and brokerages</strong> deploy AI and blockchain to increase asset values by 20-40%, reduce operational costs by 30-50%, and dominate their markets.
-          </p>
-
-          <!-- CTAs -->
-          <div class="mt-7 flex flex-wrap gap-3 reveal">
-            <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ35pitJoNQII4zYQMqzH7PE8iq1E_nVpGuBM5OyJCbVRhZ1C2GySAqEEO_92Z0juGlnYkr4uQTY?gv=true"
-               target="_blank" rel="noopener noreferrer"
-               class="shine btn-primary font-semibold px-5 py-3 rounded-xl active:scale-[.98] transition">
-              Book Free Strategy Session
-            </a>
-            <a href="#solutions" class="px-5 py-3 rounded-xl btn-ghost transition">
-              See Solutions
-            </a>
-          </div>
-
-          <!-- KPIs -->
-          <div class="mt-8 grid grid-cols-3 gap-3 max-w-lg">
-            <div class="rounded-2xl card p-4 text-center reveal">
-              <div class="text-2xl font-bold gold-text">167%</div>
-              <div class="text-xs mt-1 text-gray-300">Revenue Growth<br><span class="text-[10px] opacity-70">(Capital Edge)</span></div>
-            </div>
-            <div class="rounded-2xl card p-4 text-center reveal">
-              <div class="text-2xl font-bold gold-text">$545M</div>
-              <div class="text-xs mt-1 text-gray-300">Asset Monetized<br><span class="text-[10px] opacity-70">(Address JG)</span></div>
-            </div>
-            <div class="rounded-2xl card p-4 text-center reveal">
-              <div class="text-2xl font-bold gold-text">420%</div>
-              <div class="text-xs mt-1 text-gray-300">ROI Achieved<br><span class="text-[10px] opacity-70">(AMLAK Exit)</span></div>
-            </div>
-          </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-white">$545M</div>
+          <div class="text-xs mt-1 text-tech-trust-medium-grey">Asset Monetized</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-white">420%</div>
+          <div class="text-xs mt-1 text-tech-trust-medium-grey">ROI Achieved</div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- Expert's Image -->
+    <div class="lg:w-1/2 mt-10 lg:mt-0">
+      <img src="https://github.com/Alameenkhaled/OwenAI/blob/main/Linkedin%20Headshot.png?raw=true"
+           alt="Al Ameen Almajali — Professional Headshot" class="rounded-3xl mx-auto"
+           style="max-width: 410px;">
+    </div>
+  </div>
+</section>
 
     <!-- Trust Bar -->
     <section class="trust-bar">
@@ -391,107 +221,34 @@
       </div>
     </section>
 
-    <!-- Divider -->
-    <div class="divider opacity-60"></div>
+    <!-- Intelligent Solutions Ecosystem Section -->
+    <section id="solutions-ecosystem" class="py-16" style="background-color: var(--tech-trust-dark-blue);">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white">Our Intelligent Solutions Ecosystem</h2>
+        <p class="mt-3 text-lg text-tech-trust-light-grey max-w-3xl mx-auto">
+          Explore our interconnected suite of blockchain and AI-powered solutions, designed to work in synergy to unlock comprehensive value across your real estate operations.
+        </p>
 
-    <!-- Problem Statement Section -->
-    <section class="bg-gradient-to-b from-[#0e1533] to-[#172049] relative overflow-hidden">
-      <div class="container mx-auto px-6 py-12 lg:py-16">
-        
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto reveal">
-          <h2 class="section-title text-3xl sm:text-4xl gold-text">The AED 6.75M Problem Every Brokerage Faces</h2>
-          <p class="text-white/80 mt-3">
-            Real estate companies are bleeding revenue through invisible inefficiencies
-          </p>
-        </div>
-
-        <!-- The Crisis Grid -->
-        <div class="mt-12 grid md:grid-cols-3 gap-6">
-          
-          <!-- Problem 1 -->
-          <div class="card p-6 reveal">
-            <div class="w-14 h-14 rounded-full bg-red-500/10 flex items-center justify-center mb-4">
-              <svg class="w-7 h-7 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Trapped Productivity</h3>
-            <p class="text-white/80 text-sm mb-4">
-              <strong class="text-red-400">55% of agent time</strong> is consumed by admin tasks—costing a typical 50-agent brokerage <strong class="text-red-400">AED 6.75M annually</strong> in lost productivity.
-            </p>
-            <div class="text-xs text-white/60">
-              → 31,500 hours wasted per year<br>
-              → Zero revenue generation<br>
-              → Agent burnout and turnover
-            </div>
+        <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Solution Card 1 -->
+          <div class="p-6 rounded-lg text-center cursor-pointer transition-transform transform hover:scale-105" style="background: linear-gradient(145deg, var(--tech-trust-light-dark-blue), var(--tech-trust-dark-blue));">
+            <div class="text-5xl" style="color: var(--tech-trust-teal);">[ICON]</div>
+            <h3 class="mt-4 text-xl font-bold text-white">Blockchain for Supply Chain</h3>
+            <p class="mt-2 text-sm text-tech-trust-medium-grey">Immutable tracking of materials and project milestones.</p>
           </div>
 
-          <!-- Problem 2 -->
-          <div class="card p-6 reveal">
-            <div class="w-14 h-14 rounded-full bg-orange-500/10 flex items-center justify-center mb-4">
-              <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Conversion Crisis</h3>
-            <p class="text-white/80 text-sm mb-4">
-              Industry-average <strong class="text-orange-400">1.2% lead-to-deal conversion</strong> means 98.8% of marketing spend is wasted on unqualified leads who never transact.
-            </p>
-            <div class="text-xs text-white/60">
-              → 80% of deals need 5-12 follow-ups<br>
-              → Agents overwhelmed by volume<br>
-              → Revenue left on the table
-            </div>
+          <!-- Solution Card 2 -->
+          <div class="p-6 rounded-lg text-center cursor-pointer transition-transform transform hover:scale-105" style="background: linear-gradient(145deg, var(--tech-trust-light-dark-blue), var(--tech-trust-dark-blue));">
+            <div class="text-5xl" style="color: var(--tech-trust-vibrant-blue);">[ICON]</div>
+            <h3 class="mt-4 text-xl font-bold text-white">AI-Powered Analytics</h3>
+            <p class="mt-2 text-sm text-tech-trust-medium-grey">Predictive insights for market trends and asset performance.</p>
           </div>
 
-          <!-- Problem 3 -->
-          <div class="card p-6 reveal">
-            <div class="w-14 h-14 rounded-full bg-yellow-500/10 flex items-center justify-center mb-4">
-              <svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-white mb-3">Illiquid Capital</h3>
-            <p class="text-white/80 text-sm mb-4">
-              <strong class="text-yellow-400">Trillions in real estate assets</strong> are locked in illiquid structures, limiting portfolio optimization and preventing fractional investment opportunities.
-            </p>
-            <div class="text-xs text-white/60">
-              → 8-12 month transaction cycles<br>
-              → High capital requirements<br>
-              → Missed investment opportunities
-            </div>
-          </div>
-        </div>
-
-        <!-- The Cost Calculator -->
-        <div class="mt-12 bg-gradient-to-r from-red-900/20 to-orange-900/20 border border-red-500/30 rounded-2xl p-8 reveal">
-          <div class="text-center">
-            <h3 class="text-2xl font-bold gold-text mb-4">What Is This Costing YOUR Business?</h3>
-            <p class="text-white/90 mb-6">A typical 50-agent brokerage loses:</p>
-            <div class="grid md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-              <div class="bg-white/5 rounded-xl p-4">
-                <div class="text-3xl font-bold text-red-400">AED 6.75M</div>
-                <div class="text-sm text-white/70 mt-1">Lost Productivity</div>
-              </div>
-              <div class="bg-white/5 rounded-xl p-4">
-                <div class="text-3xl font-bold text-orange-400">98.8%</div>
-                <div class="text-sm text-white/70 mt-1">Wasted Leads</div>
-              </div>
-              <div class="bg-white/5 rounded-xl p-4">
-                <div class="text-3xl font-bold text-yellow-400">8-12 Mo</div>
-                <div class="text-sm text-white/70 mt-1">Deal Cycles</div>
-              </div>
-              <div class="bg-white/5 rounded-xl p-4">
-                <div class="text-3xl font-bold text-white">?</div>
-                <div class="text-sm text-white/70 mt-1">Your Lost Revenue</div>
-              </div>
-            </div>
-            <div class="mt-8">
-              <a href="#solutions" class="shine btn-primary font-semibold px-6 py-3 rounded-xl inline-block">
-                See How We Fix This →
-              </a>
-            </div>
+          <!-- Solution Card 3 -->
+          <div class="p-6 rounded-lg text-center cursor-pointer transition-transform transform hover:scale-105" style="background: linear-gradient(145deg, var(--tech-trust-light-dark-blue), var(--tech-trust-dark-blue));">
+            <div class="text-5xl" style="color: var(--tech-trust-purple);">[ICON]</div>
+            <h3 class="mt-4 text-xl font-bold text-white">PropTech Integration</h3>
+            <p class="mt-2 text-sm text-tech-trust-medium-grey">Seamlessly connect your existing systems and workflows.</p>
           </div>
         </div>
       </div>
@@ -500,179 +257,44 @@
     <!-- Divider -->
     <div class="divider opacity-60"></div>
 
-    <!-- Solutions Overview Section -->
-    <section id="solutions" class="paper">
-      <div class="container mx-auto px-6 py-12 lg:py-16">
-        
-        <!-- Header -->
-        <div class="text-center max-w-3xl mx-auto reveal">
-          <h2 class="section-title text-3xl sm:text-4xl gold-text">Services & Solutions</h2>
-          <p class="text-[var(--muted)] mt-3">
-            Targeted strategies to capitalize on the next wave of real estate innovation.
-          </p>
+    <!-- Cost Analysis Section -->
+    <section id="cost-analysis" class="py-16" style="background-color: var(--tech-trust-light-dark-blue);">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white">Cost Analysis: Uncovering Hidden Value</h2>
+        <p class="mt-3 text-lg text-tech-trust-light-grey">
+          Understand where your capital is truly going and discover pathways to substantial savings and increased profitability through intelligent real estate solutions.
+        </p>
+
+        <div class="mt-12">
+          <h3 class="text-2xl font-semibold text-white">
+            Reduce Operational Costs by up to <span style="color: var(--tech-trust-teal);">40%</span>
+          </h3>
+          <!-- Placeholder for chart -->
+          <div class="mt-6 p-8 rounded-lg" style="background-color: var(--tech-trust-dark-blue);">
+            <p class="text-tech-trust-medium-grey">[Interactive Chart/Graph Placeholder]</p>
+          </div>
         </div>
 
-        <!-- The Two Solutions -->
-        <div class="mt-12 grid lg:grid-cols-2 gap-8 items-start">
-          
-          <!-- Section 1: Developer Tokenization Advisory -->
-          <div class="paper-card rounded-2xl overflow-hidden reveal group hover:shadow-2xl transition-all duration-300 p-6 sm:p-8">
-            <h3 class="text-2xl font-bold text-[var(--ink)] gold-text">Tokenize Your Vision. Capitalize Your Future.</h3>
-            <p class="text-[var(--muted)] mt-3 mb-6">
-              Transform your brick-and-mortar assets into liquid digital equity. Secure funding faster, reduce costs, and position your brand as the government's partner of choice.
-            </p>
-
-            <h4 class="text-lg font-bold text-[var(--ink)] mb-4">The Financial Revolution: Traditional vs. Tokenized Development</h4>
-            <!-- Table 1 -->
-            <div class="overflow-x-auto mb-6 border border-gray-200 rounded-lg">
-              <table class="w-full text-left text-sm text-[var(--muted)]">
-                <thead class="text-xs text-[var(--ink)] uppercase bg-gray-100">
-                  <tr>
-                    <th scope="col" class="px-4 py-3">Key Metric</th>
-                    <th scope="col" class="px-4 py-3">Traditional Model</th>
-                    <th scope="col" class="px-4 py-3 text-blue-600 font-semibold">With Alameen's Tokenization</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Funding Timeline</th>
-                    <td class="px-4 py-3">24-36 Months</td>
-                    <td class="px-4 py-3 font-semibold text-blue-600">12-18 Months</td>
-                  </tr>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Pre-Sales Completion</th>
-                    <td class="px-4 py-3">85% at Handover</td>
-                    <td class="px-4 py-3 font-semibold text-blue-600">100% Before Construction</td>
-                  </tr>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Financing Cost</th>
-                    <td class="px-4 py-3">AED 85 Million</td>
-                    <td class="px-4 py-3 font-semibold text-blue-600">AED 50 Million</td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Your Net Gain</th>
-                    <td class="px-4 py-3 font-bold text-red-600">AED 35 Million Saved</td>
-                    <td class="px-4 py-3 font-bold text-green-600">68% ROI</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <h4 class="font-bold text-[var(--ink)] mb-3">How I Deliver Your Advantage:</h4>
-            <ul class="space-y-3 mb-6">
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-blue-500 font-bold mt-1">1.</span>
-                <span><strong>Raise Capital on Your Terms:</strong> Access cheaper, flexible funding from a global retail market, breaking free from restrictive traditional lenders.</span>
-              </li>
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-blue-500 font-bold mt-1">2.</span>
-                <span><strong>Unlock a New Investor Ecosystem:</strong> Tap into thousands of digital-savvy investors worldwide, creating unprecedented sales velocity.</span>
-              </li>
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-blue-500 font-bold mt-1">3.</span>
-                <span><strong>Become the Government's Ideal Partner:</strong> Structure your project to perfectly align with PPP agendas, attracting top-tier, forward-thinking capital.</span>
-              </li>
-            </ul>
-
-            <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ35pitJoNQII4zYQMqzH7PE8iq1E_nVpGuBM5OyJCbVRhZ1C2GySAqEEO_92Z0juGlnYkr4uQTY?gv=true"
-               target="_blank" rel="noopener noreferrer"
-               class="shine btn-primary font-semibold px-5 py-3 rounded-xl active:scale-[.98] transition inline-block">
-              Schedule Your Capital Strategy Session
-            </a>
-          </div>
-
-          <!-- Section 2: Brokerage AI Transformation -->
-          <div class="paper-card rounded-2xl overflow-hidden reveal group hover:shadow-2xl transition-all duration-300 p-6 sm:p-8">
-            <h3 class="text-2xl font-bold text-[var(--ink)] gold-text">Multiply Productivity. Dominate the Market.</h3>
-            <p class="text-[var(--muted)] mt-3 mb-6">
-              Deploy our proprietary AI operating system to eliminate administrative drag. Transform your agents from burdened administrators into elite, revenue-driving forces.
-            </p>
-
-            <h4 class="text-lg font-bold text-[var(--ink)] mb-4">The Performance Multiplier: Your Team Transformed</h4>
-            <!-- Table 2 - Part 1 -->
-            <h5 class="font-semibold text-[var(--ink)] mb-2">Operational Efficiency</h5>
-            <div class="overflow-x-auto mb-4 border border-gray-200 rounded-lg">
-              <table class="w-full text-left text-sm text-[var(--muted)]">
-                <thead class="text-xs text-[var(--ink)] uppercase bg-gray-100">
-                  <tr>
-                    <th scope="col" class="px-4 py-3">Metric</th>
-                    <th scope="col" class="px-4 py-3">Traditional Brokerage</th>
-                    <th scope="col" class="px-4 py-3 text-purple-600 font-semibold">With Our AI OS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Document Processing</th>
-                    <td class="px-4 py-3">60 Minutes</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">10 Minutes</td>
-                  </tr>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Transactions per Month</th>
-                    <td class="px-4 py-3">60 Deals</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">180 Deals</td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Data Entry Automation</th>
-                    <td class="px-4 py-3">20%</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">95%</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <!-- Table 2 - Part 2 -->
-            <h5 class="font-semibold text-[var(--ink)] mb-2 mt-6">Agent Performance</h5>
-            <div class="overflow-x-auto mb-6 border border-gray-200 rounded-lg">
-              <table class="w-full text-left text-sm text-[var(--muted)]">
-                <thead class="text-xs text-[var(--ink)] uppercase bg-gray-100">
-                  <tr>
-                    <th scope="col" class="px-4 py-3">Capability</th>
-                    <th scope="col" class="px-4 py-3">Traditional Agent</th>
-                    <th scope="col" class="px-4 py-3 text-purple-600 font-semibold">AI-Powered Agent</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Clients Managed</th>
-                    <td class="px-4 py-3">10-20</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">30-40</td>
-                  </tr>
-                  <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Market Coverage</th>
-                    <td class="px-4 py-3">2-3 Languages</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">20+ Languages</td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <th scope="row" class="px-4 py-3 font-medium text-[var(--ink)] whitespace-nowrap">Availability</th>
-                    <td class="px-4 py-3">8-12 Hours</td>
-                    <td class="px-4 py-3 font-semibold text-purple-600">24/7 Operation</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <h4 class="font-bold text-[var(--ink)] mb-3">How I Deliver Your Advantage:</h4>
-            <ul class="space-y-3 mb-6">
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-purple-500 font-bold mt-1">1.</span>
-                <span><strong>Slash Operational Overhead:</strong> Automate up to 95% of administrative tasks, converting your biggest cost—salaried time—into pure profit.</span>
-              </li>
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-purple-500 font-bold mt-1">2.</span>
-                <span><strong>Unleash 3x Your Sales Capacity:</strong> Empower your existing team to manage 3x the clients and listings, unlocking unprecedented revenue without growing your headcount.</span>
-              </li>
-              <li class="flex items-start gap-3 text-sm text-[var(--muted)]">
-                <span class="text-purple-500 font-bold mt-1">3.</span>
-                <span><strong>Own The 24/7 Global Marketplace:</strong> Operate across 50+ languages and time zones, capturing international deals and clients your competitors cannot reach.</span>
-              </li>
-            </ul>
-
-            <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ35pitJoNQII4zYQMqzH7PE8iq1E_nVpGuBM5OyJCbVRhZ1C2GySAqEEO_92Z0juGlnYkr4uQTY?gv=true"
-               target="_blank" rel="noopener noreferrer"
-               class="shine btn-primary font-semibold px-5 py-3 rounded-xl active:scale-[.98] transition inline-block">
-              Book A Productivity Audit
-            </a>
-          </div>
+        <div class="mt-12">
+          <h4 class="text-xl font-semibold text-white">Key Areas of Cost Optimization:</h4>
+          <ul class="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+            <li class="p-6 rounded-lg" style="background-color: var(--tech-trust-dark-blue);">
+              <h5 class="font-bold text-white">Manual Process Overheads</h5>
+              <p class="mt-2 text-sm text-tech-trust-light-grey">Eliminate unnecessary labor and administrative costs.</p>
+            </li>
+            <li class="p-6 rounded-lg" style="background-color: var(--tech-trust-dark-blue);">
+              <h5 class="font-bold text-white">Fraud & Security Risks</h5>
+              <p class="mt-2 text-sm text-tech-trust-light-grey">Mitigate financial losses with immutable records.</p>
+            </li>
+            <li class="p-6 rounded-lg" style="background-color: var(--tech-trust-dark-blue);">
+              <h5 class="font-bold text-white">Compliance & Regulatory Burdens</h5>
+              <p class="mt-2 text-sm text-tech-trust-light-grey">Streamline complex legal adherence.</p>
+            </li>
+            <li class="p-6 rounded-lg" style="background-color: var(--tech-trust-dark-blue);">
+              <h5 class="font-bold text-white">Inefficient Capital Allocation</h5>
+              <p class="mt-2 text-sm text-tech-trust-light-grey">Optimize investment strategies with real-time data.</p>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -683,7 +305,7 @@
     <!-- Flagship Products Section -->
     <section id="products" class="bg-gradient-to-b from-[#172049] to-[#0e1533] relative overflow-hidden">
       <div class="container mx-auto px-6 py-12 lg:py-16">
-        
+
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto reveal">
           <h2 class="section-title text-3xl sm:text-4xl gold-text">Proprietary Technology Solutions</h2>
@@ -697,23 +319,23 @@
           <div class="order-2 lg:order-1 reveal">
             <div class="relative">
               <div class="absolute -inset-4 bg-blue-500/20 rounded-2xl blur-xl"></div>
-              <img src="https://placehold.co/600x400/112240/ccd6f6?text=OwenAI+Dashboard" 
-                   alt="OwenAI Dashboard - AI-powered real estate automation platform" 
+              <img src="https://placehold.co/600x400/112240/ccd6f6?text=OwenAI+Dashboard"
+                   alt="OwenAI Dashboard - AI-powered real estate automation platform"
                    class="relative rounded-xl shadow-2xl w-full">
             </div>
           </div>
-          
+
           <div class="order-1 lg:order-2 reveal">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 mb-4">
               <span class="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
               <span class="text-xs tracking-wide uppercase text-blue-400">FLAGSHIP PRODUCT</span>
             </div>
-            
+
             <h3 class="text-3xl font-bold text-white mb-4">OwenAI</h3>
             <p class="text-lg text-white/80 mb-6">
               The industry's first multi-agent AI system designed specifically for real estate operations
             </p>
-            
+
             <div class="space-y-4 mb-8">
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -726,7 +348,7 @@
                   <p class="text-sm text-white/70">AI agents engage leads instantly, qualify based on custom criteria, and schedule appointments</p>
                 </div>
               </div>
-              
+
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
@@ -738,7 +360,7 @@
                   <p class="text-sm text-white/70">Handles paperwork, compliance checks, and status updates throughout the deal lifecycle</p>
                 </div>
               </div>
-              
+
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
@@ -751,7 +373,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4 mb-6">
               <div class="flex items-center justify-between">
                 <div>
@@ -764,7 +386,7 @@
                 </div>
               </div>
             </div>
-            
+
             <a href="#owenai-demo" class="shine btn-primary font-semibold px-5 py-3 rounded-xl inline-block">
               Request OwenAI Demo
             </a>
@@ -778,12 +400,12 @@
               <span class="w-2.5 h-2.5 rounded-full bg-purple-400"></span>
               <span class="text-xs tracking-wide uppercase text-purple-400">FLAGSHIP PRODUCT</span>
             </div>
-            
+
             <h3 class="text-3xl font-bold text-white mb-4">OwenOS</h3>
             <p class="text-lg text-white/80 mb-6">
               Operating system for tokenized real estate assets, enabling fractional ownership and secondary market trading
             </p>
-            
+
             <div class="space-y-4 mb-8">
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -796,7 +418,7 @@
                   <p class="text-sm text-white/70">Convert real estate assets into compliant digital tokens with fractional ownership</p>
                 </div>
               </div>
-              
+
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg class="w-4 h-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
@@ -808,7 +430,7 @@
                   <p class="text-sm text-white/70">Enable trading of tokenized assets with automated compliance and settlement</p>
                 </div>
               </div>
-              
+
               <div class="flex items-start gap-3">
                 <div class="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg class="w-4 h-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
@@ -821,7 +443,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="bg-purple-500/10 border border-purple-500/20 rounded-xl p-4 mb-6">
               <div class="flex items-center justify-between">
                 <div>
@@ -834,17 +456,17 @@
                 </div>
               </div>
             </div>
-            
+
             <a href="#owenos-demo" class="shine btn-primary font-semibold px-5 py-3 rounded-xl inline-block">
               Request OwenOS Demo
             </a>
           </div>
-          
+
           <div class="order-1 lg:order-2 reveal">
             <div class="relative">
               <div class="absolute -inset-4 bg-purple-500/20 rounded-2xl blur-xl"></div>
-              <img src="https://placehold.co/600x400/112240/ccd6f6?text=OwenOS+Platform" 
-                   alt="OwenOS Platform - Blockchain tokenization for real estate assets" 
+              <img src="https://placehold.co/600x400/112240/ccd6f6?text=OwenOS+Platform"
+                   alt="OwenOS Platform - Blockchain tokenization for real estate assets"
                    class="relative rounded-xl shadow-2xl w-full">
             </div>
           </div>
@@ -858,7 +480,7 @@
     <!-- Case Studies Section -->
     <section id="results" class="paper">
       <div class="container mx-auto px-6 py-12 lg:py-16">
-        
+
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto reveal">
           <h2 class="section-title text-3xl sm:text-4xl gold-text">Proven Transformation Results</h2>
@@ -875,12 +497,12 @@
                 <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
                 <span class="text-xs tracking-wide uppercase text-blue-600">FEATURED CASE</span>
               </div>
-              
+
               <h3 class="text-2xl font-bold text-[var(--ink)] mb-4">Address JG</h3>
               <p class="text-[var(--muted)] mb-4">
                 Dubai-based brokerage with 50 agents struggling with lead conversion and operational efficiency
               </p>
-              
+
               <div class="space-y-3">
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
@@ -893,7 +515,7 @@
                     <div class="text-sm text-[var(--muted)]">1.2% lead-to-deal conversion, 55% agent time on admin tasks</div>
                   </div>
                 </div>
-                
+
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
                     <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
@@ -905,7 +527,7 @@
                     <div class="text-sm text-[var(--muted)]">Implemented OwenAI with custom lead qualification and workflow automation</div>
                   </div>
                 </div>
-                
+
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
                     <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
@@ -918,7 +540,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <a href="#case-study-1" class="mt-6 text-blue-600 font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
                 Read Full Case Study
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -926,11 +548,11 @@
                 </svg>
               </a>
             </div>
-            
+
             <div class="lg:w-2/3">
               <div class="bg-white rounded-xl p-6 shadow-lg h-full">
                 <h4 class="text-lg font-bold text-[var(--ink)] mb-4">Performance Metrics</h4>
-                
+
                 <div class="grid grid-cols-2 gap-6">
                   <div>
                     <div class="text-3xl font-bold text-blue-600 mb-1">3.2x</div>
@@ -939,7 +561,7 @@
                       <div class="h-full bg-blue-600 rounded-full" style="width: 85%"></div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <div class="text-3xl font-bold text-green-600 mb-1">70%</div>
                     <div class="text-sm text-[var(--muted)]">Time Savings Per Agent</div>
@@ -947,7 +569,7 @@
                       <div class="h-full bg-green-600 rounded-full" style="width: 70%"></div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <div class="text-3xl font-bold text-purple-600 mb-1">267%</div>
                     <div class="text-sm text-[var(--muted)]">ROI in First Year</div>
@@ -955,7 +577,7 @@
                       <div class="h-full bg-purple-600 rounded-full" style="width: 95%"></div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <div class="text-3xl font-bold text-amber-600 mb-1">AED 545M</div>
                     <div class="text-sm text-[var(--muted)]">Additional Asset Value</div>
@@ -964,7 +586,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="mt-6 pt-6 border-t border-gray-200">
                   <div class="flex items-center justify-between">
                     <div>
@@ -1068,7 +690,7 @@
     <!-- Service Packages Section -->
     <section id="packages" class="bg-gradient-to-b from-[#0e1533] to-[#172049] relative overflow-hidden">
       <div class="container mx-auto px-6 py-12 lg:py-16">
-        
+
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto reveal">
           <h2 class="section-title text-3xl sm:text-4xl gold-text">Transformation Packages</h2>
@@ -1288,233 +910,25 @@
     <div class="divider opacity-60"></div>
 
     <!-- Innovation Lab Section -->
-    <section id="innovation" class="paper">
-      <div class="container mx-auto px-6 py-12 lg:py-16">
-        
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto reveal">
-          <h2 class="section-title text-3xl sm:text-4xl gold-text">Innovation Lab</h2>
-          <p class="text-[var(--muted)] mt-3">
-            Research, insights, and perspectives shaping the future of real estate
-          </p>
-        </div>
+    <section id="innovation-lab" class="py-16" style="background-color: var(--tech-trust-dark-blue);">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white">Our Innovation Lab: Pioneering the Future of Real Estate</h2>
+        <p class="mt-3 text-lg text-tech-trust-light-grey max-w-3xl mx-auto">
+          Our lab is dedicated to groundbreaking research and development in real estate technology, focusing on blockchain, AI, and sustainable solutions that will shape the future of the industry.
+        </p>
 
-        <!-- Featured Research -->
-        <div class="mt-12 grid md:grid-cols-2 gap-8">
-          <!-- Featured Publication 1 -->
-          <div class="authority-card reveal">
-            <div class="relative h-[300px]">
-              <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/T&T.png?raw=true"
-                   alt="Tokens and Towers — Book by Al Ameen Almajali" class="absolute inset-0 w-full h-full object-cover"
-                   onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=Tokens+and+Towers'; this.alt='Tokens and Towers Book Cover';">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent"></div>
-            </div>
-            <div class="p-6">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 mb-3">
-                <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
-                <span class="text-xs tracking-wide uppercase text-blue-600">FEATURED BOOK</span>
-              </div>
-              <h3 class="text-xl font-display font-semibold gold-text">Tokens and Towers</h3>
-              <p class="text-[var(--muted)] mt-2">From Blueprint to Blockchain, Reimagining Real Estate</p>
-              <p class="text-[var(--muted)] text-sm mt-3">This book provides the blueprint for the next generation of real estate, making property fast, fluid, and open to everyone.</p>
-              <div class="mt-4 flex gap-3">
-                <a href="https://drive.google.com/file/d/13peevRCwpSXuXKLv_ZiSu9ZxHxPsMU1Z/view?usp=sharing"
-                   target="_blank" rel="noopener noreferrer"
-                   class="shine btn-primary font-semibold px-4 py-2 rounded-lg active:scale-[.98] transition">
-                  Download Book
-                </a>
-                <button class="btn-ghost px-4 py-2 rounded-lg transition js-open-lightbox"
-                        data-lightbox-src="https://github.com/Alameenkhaled/New-Alameen/blob/main/T&T.png?raw=true">
-                  View Cover
-                </button>
-              </div>
-            </div>
+        <div class="mt-8">
+          <!-- Filters -->
+          <div class="flex flex-wrap justify-center gap-4">
+            <button class="btn btn-secondary">All</button>
+            <button class="btn btn-secondary">Blockchain Solutions</button>
+            <button class="btn btn-secondary">PropTech Integrations</button>
+            <button class="btn btn-secondary">AI & Data Analytics</button>
           </div>
-          
-          <!-- Featured Publication 2 -->
-          <div class="authority-card reveal">
-            <div class="relative h-[300px]">
-              <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/952B.png?raw=true"
-                   alt="The 952 Billion Book by Al Ameen Almajali" class="absolute inset-0 w-full h-full object-cover"
-                   onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=952B'; this.alt='The 952 Billion Book Cover';">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent"></div>
-            </div>
-            <div class="p-6">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 mb-3">
-                <span class="w-2.5 h-2.5 rounded-full bg-purple-500"></span>
-                <span class="text-xs tracking-wide uppercase text-purple-600">FEATURED RESEARCH</span>
-              </div>
-              <h3 class="text-xl font-display font-semibold gold-text">The $952 Billion Opportunity</h3>
-              <p class="text-[var(--muted)] mt-2">Unlocking Value in Real Estate</p>
-              <p class="text-[var(--muted)] text-sm mt-3">An in-depth analysis of the untapped potential in real estate markets and how digital transformation can unlock trillions in value.</p>
-              <div class="mt-4 flex gap-3">
-                <a href="https://drive.google.com/file/d/1CCX0jS6qp-xdzyn_A78GR2r96oLOTN28/view?usp=sharing"
-                   target="_blank" rel="noopener noreferrer"
-                   class="shine btn-primary font-semibold px-4 py-2 rounded-lg active:scale-[.98] transition">
-                  Download Book
-                </a>
-                <button class="btn-ghost px-4 py-2 rounded-lg transition js-open-lightbox"
-                        data-lightbox-src="https://github.com/Alameenkhaled/New-Alameen/blob/main/952B.png?raw=true">
-                  View Cover
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Featured Report -->
-        <div class="mt-6 authority-card reveal">
-          <div class="grid md:grid-cols-[1fr_2fr] gap-0 md:gap-6">
-            <div class="relative h-[250px] md:h-full">
-              <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/Screenshot%202025-09-23%20073718.png?raw=true"
-                   alt="Atlanta Smart Token Cover Page - Research Report" class="absolute inset-0 w-full h-full object-cover"
-                   onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=Atlanta+Smart+Token'; this.alt='Atlanta Smart Token Report Cover';">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent md:hidden"></div>
-            </div>
-            <div class="p-6 flex flex-col justify-center">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 mb-3">
-                <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
-                <span class="text-xs tracking-wide uppercase text-amber-600">FEATURED REPORT</span>
-              </div>
-              <h3 class="text-xl font-display font-semibold gold-text">Atlanta Smart Token</h3>
-              <p class="text-[var(--muted)] mt-2">Revolutionizing Property Investment</p>
-              <p class="text-[var(--muted)] text-sm mt-3">A comprehensive guide to tokenizing real estate assets and creating new investment opportunities in the Atlanta market.</p>
-              <div class="mt-4 flex gap-3">
-                <a href="https://drive.google.com/file/d/1kuGax3E859SCLFKjSpK8onTksmTMbppW/view?usp=sharing"
-                   target="_blank" rel="noopener noreferrer"
-                   class="shine btn-primary font-semibold px-4 py-2 rounded-lg active:scale-[.98] transition">
-                  Download Report
-                </a>
-                <button class="btn-ghost px-4 py-2 rounded-lg transition js-open-lightbox"
-                        data-lightbox-src="https://github.com/Alameenkhaled/New-Alameen/blob/main/Screenshot%202025-09-23%20073718.png?raw=true">
-                  View Cover
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- LinkedIn Articles -->
-        <div class="mt-12">
-          <h3 class="text-2xl font-display font-semibold gold-text text-center mb-8 reveal">Recent Articles & Analysis</h3>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            <!-- Article 1 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">AED 7 Million Invisible Expense in Every Dubai Real Estate Transaction</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">Exploring the hidden costs that impact Dubai's real estate market and how blockchain technology can eliminate them.</p>
-                  <a href="https://www.linkedin.com/pulse/aed-7-million-invisible-expense-every-dubai-real-estate-almajali-jtowf/?trackingId=wt70FEXxPe2egQ4RhTsFsA%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Article 2 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">Borderless Property Market: Why Dubai is Poised to Become a Global Hub</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">An analysis of Dubai's strategic position in the global real estate market and the role of digital assets in its growth.</p>
-                  <a href="https://www.linkedin.com/pulse/borderless-property-market-why-dubai-poised-global-hub-almajali-h5p9f/?trackingId=rmnl6XQ12r0tEvDSO2T9Hg%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Article 3 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">Your AI Intern: The Autonomous Team You Need</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">How artificial intelligence is revolutionizing team productivity in the real estate sector.</p>
-                  <a href="https://www.linkedin.com/pulse/your-ai-intern-you-need-autonomous-team-alameen-almajali-i7qvf/?trackingId=1yBRYtTQbLwo8EK01Dumcg%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Article 4 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">The Billion-Person Blind Spot: Why Real Estate's Algorithm is Broken</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">Examining the fundamental flaws in real estate algorithms and how they impact market dynamics.</p>
-                  <a href="https://www.linkedin.com/pulse/billion-person-blind-spot-why-real-estates-algorithm-broken-almajali-nxogf/?trackingId=FMLdHYhNsUT6lWBLAwWeHg%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Article 5 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">The More You Spend, The More You Lose: Why Your Marketing Budget Isn't Driving Results</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">Revealing the inefficiencies in real estate marketing and how data-driven approaches can transform ROI.</p>
-                  <a href="https://www.linkedin.com/pulse/more-you-spend-lose-why-your-marketing-budget-driving-almajali-houbf/?trackingId=fhj2Xaqv8Cpaue%2BM49VkIw%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Article 6 -->
-            <div class="group [perspective:1000px] reveal">
-              <div class="relative h-72 rounded-2xl paper-card transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] flex flex-col items-center justify-center text-center">
-                  <h4 class="text-lg font-semibold text-[var(--ink)]">A Love Letter to My First Investment Property: The Call That Changed Everything</h4>
-                  <p class="text-sm font-semibold text-[var(--muted)] mt-2 italic">Click to read more</p>
-                </div>
-                <div class="absolute inset-0 p-6 [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-start justify-center text-left">
-                  <p class="text-[var(--muted)] text-sm">A personal reflection on the journey of real estate investment and the lessons learned along the way.</p>
-                  <a href="https://www.linkedin.com/pulse/love-letter-my-first-investment-property-call-changed-almajali-kzxbf/?trackingId=OKMGobCH2EYqrXcQnXGS3w%3D%3D" target="_blank" rel="noopener noreferrer" class="mt-4 text-[var(--accent-soft)] font-semibold hover:text-[var(--accent)] transition">Read Article →</a>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        
-        <!-- Testimonials -->
-        <div class="mt-12">
-          <h3 class="text-2xl font-display font-semibold gold-text text-center mb-8 reveal">Industry Recognition</h3>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="testimonial-card reveal">
-              <p class="text-white/90 italic relative z-10">"Al Ameen's insights into blockchain applications in real estate have been transformative for our investment strategy. His ability to demystify complex technologies is unparalleled."</p>
-              <div class="mt-4 flex items-center gap-3 relative z-10">
-                <div class="w-12 h-12 rounded-full overflow-hidden">
-                  <img src="https://placehold.co/100x100/334155/e2e8f0?text=MC" alt="Michael Chen - CEO, Global Property Investments" class="w-full h-full object-cover">
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white">Michael Chen</h4>
-                  <p class="text-sm text-white/70">CEO, Global Property Investments</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="testimonial-card reveal">
-              <p class="text-white/90 italic relative z-10">"Working with Al Ameen on our AI implementation strategy yielded results beyond our expectations. His deep understanding of both technology and real estate is rare and valuable."</p>
-              <div class="mt-4 flex items-center gap-3 relative z-10">
-                <div class="w-12 h-12 rounded-full overflow-hidden">
-                  <img src="https://placehold.co/100x100/334155/e2e8f0?text=SJ" alt="Sarah Johnson - CTO, Premium Developments" class="w-full h-full object-cover">
-                </div>
-                <div>
-                  <h4 class="font-semibold text-white">Sarah Johnson</h4>
-                  <p class="text-sm text-white/70">CTO, Premium Developments</p>
-                </div>
-              </div>
-            </div>
+
+          <!-- Timeline Placeholder -->
+          <div class="mt-12 text-tech-trust-medium-grey">
+            [Interactive Timeline Placeholder]
           </div>
         </div>
       </div>
@@ -1523,176 +937,111 @@
     <!-- Divider -->
     <div class="divider opacity-60"></div>
 
-    <!-- Trust & Credentials Section -->
-    <section id="credentials" class="midband">
-      <!-- Awards -->
-      <section id="awards">
-        <div class="container mx-auto px-6 pt-12 lg:pt-16">
-          <h2 class="section-title text-2xl sm:text-3xl gold-text reveal">Awards & Recognitions</h2>
-          <div class="mt-6 grid md:grid-cols-2 gap-4">
-            <!-- DLD 2017 Award -->
-            <div class="rounded-2xl card p-5 reveal">
-              <div class="flex items-center justify-between">
-                <h3 class="font-semibold font-display">Highest Number of Transactions — DLD (2017)</h3>
-                <span class="text-[var(--accent)] text-2xl">▸</span>
-              </div>
-              <p class="text-white/80 mt-3">Recognized for exceptional sales performance in a competitive market.</p>
-              <div class="mt-4 rounded-xl overflow-hidden border border-white/10">
-                <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202017.png?raw=true" 
-                     alt="Dubai Land Department Reward for High Transactions - 2017" 
-                     class="w-full h-52 object-cover cursor-pointer"
-                     data-lightbox-img
-                     data-lightbox-src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202017.png?raw=true"
-                     onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=DLD+Award+2017'; this.alt='DLD Award 2017';">
-              </div>
-            </div>
-            
-            <!-- DLD 2018 Award -->
-            <div class="rounded-2xl card p-5 reveal">
-              <div class="flex items-center justify-between">
-                <h3 class="font-semibold font-display">Real Estate Excellence Award — DLD (2018)</h3>
-                <span class="text-[var(--accent)] text-2xl">▸</span>
-              </div>
-              <p class="text-white/80 mt-3">Honored for industry leadership and client service excellence.</p>
-              <div class="mt-4 rounded-xl overflow-hidden border border-white/10">
-                <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202018.png?raw=true" 
-                     alt="Dubai Land Department Reward for Industry Excellency - 2018" 
-                     class="w-full h-52 object-cover cursor-pointer"
-                     data-lightbox-img
-                     data-lightbox-src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202018.png?raw=true"
-                     onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=DLD+Award+2018'; this.alt='DLD Award 2018';">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <!-- Recent Articles & Analysis Section -->
+    <section id="articles" class="py-16" style="background-color: var(--tech-trust-light-dark-blue);">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white">Recent Articles & In-Depth Analysis</h2>
+        <p class="mt-3 text-lg text-tech-trust-light-grey max-w-3xl mx-auto">
+          Explore the latest perspectives on real estate technology, blockchain, and market dynamics.
+        </p>
 
-      <!-- Education -->
-      <section id="education">
-        <div class="container mx-auto px-6 pb-12 lg:pb-16">
-          <h2 class="section-title text-2xl sm:text-3xl gold-text mt-10 reveal">Education & Credentials</h2>
-          <div class="mt-6 grid lg:grid-cols-2 gap-6">
-            <!-- Harvard -->
-            <div class="rounded-2xl card p-6 reveal">
-              <div class="flex items-center justify-between">
-                <h3 class="font-semibold font-display">INNOVATION AND ENTREPRENEURSHIP</h3>
-                <span class="text-[var(--accent)] font-semibold">2023–2025</span>
-              </div>
-              <p class="text-white/80 text-sm mt-1">Harvard University</p>
-              <div class="mt-4 rounded-xl overflow-hidden border border-white/10">
-                <img src="https://github.com/Alameenkhaled/OwenAI/blob/main/Alameen%20-%20Harvard%20certificate%202025.png?raw=true" 
-                     alt="Harvard School Certificate - Innovation and Entrepreneurship" 
-                     class="w-full h-52 object-cover cursor-pointer"
-                     data-lightbox-img
-                     data-lightbox-src="https://github.com/Alameenkhaled/OwenAI/blob/main/Alameen%20-%20Harvard%20certificate%202025.png?raw=true"
-                     onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=Harvard+Certificate'; this.alt='Harvard Certificate';">
-              </div>
+        <div class="mt-8">
+          <!-- Filters -->
+          <div class="flex flex-wrap justify-center gap-4">
+            <button class="btn btn-secondary">All</button>
+            <button class="btn btn-secondary">Blockchain</button>
+            <button class="btn btn-secondary">PropTech</button>
+            <button class="btn btn-secondary">Market Analysis</button>
+          </div>
+
+          <!-- Articles Grid -->
+          <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Article Card 1 -->
+            <div class="p-6 rounded-lg text-left transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-dark-blue);">
+              <h3 class="text-xl font-bold text-white">A Love Letter to My First Investment Property</h3>
+              <p class="mt-2 text-sm text-tech-trust-medium-grey">A personal reflection on the journey of real estate investment...</p>
+              <a href="https://www.linkedin.com/pulse/love-letter-my-first-investment-property-call-changed-almajali-kzxbf/?trackingId=eXCVaCnaSJaHEpTha320qQ%3D%3D" class="mt-4 inline-block font-semibold" style="color: var(--tech-trust-teal);">Read More →</a>
             </div>
-            
-            <!-- CIPS -->
-            <div class="rounded-2xl card p-6 reveal">
-              <div class="flex items-center justify-between">
-                <h3 class="font-semibold font-display">Certified International Property Specialist</h3>
-                <span class="text-[var(--accent)] font-semibold">2015</span>
-              </div>
-              <p class="text-white/80 text-sm mt-1">National Association of REALTORS®, California, United States</p>
-              <div class="mt-4 rounded-xl overflow-hidden border border-white/10">
-                <img src="https://github.com/Alameenkhaled/Digital-Asset/blob/main/CIPC.png?raw=true" 
-                     alt="Certified International Property Specialist Certificate" 
-                     class="w-full h-52 object-cover cursor-pointer"
-                     data-lightbox-img
-                     data-lightbox-src="https://github.com/Alameenkhaled/Digital-Asset/blob/main/CIPC.png?raw=true"
-                     onerror="this.src='https://placehold.co/600x300/112240/ccd6f6?text=CIPS+Certificate'; this.alt='CIPS Certificate';">
-              </div>
+            <!-- Article Card 2 -->
+            <div class="p-6 rounded-lg text-left transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-dark-blue);">
+              <h3 class="text-xl font-bold text-white">Why Your Marketing Budget is Driving Brokers Away</h3>
+              <p class="mt-2 text-sm text-tech-trust-medium-grey">The more you spend, the more you lose...</p>
+              <a href="https://www.linkedin.com/pulse/more-you-spend-lose-why-your-marketing-budget-driving-almajali-houbf/?trackingId=P68C%2FLh9WFjE%2BeUGrBNS5w%3D%3D" class="mt-4 inline-block font-semibold" style="color: var(--tech-trust-teal);">Read More →</a>
             </div>
+            <!-- ... more article cards ... -->
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- Awards & Credentials Section -->
+    <section id="credentials" class="py-16" style="background-color: var(--tech-trust-dark-blue);">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white">Recognized Excellence & Credentials</h2>
+        <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Award Card 1 -->
+          <div class="p-6 rounded-lg transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-light-dark-blue);">
+            <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202017.png?raw=true" alt="DLD Award 2017" class="h-24 mx-auto">
+            <h3 class="mt-4 text-lg font-bold text-white">Highest Number of Transactions — DLD (2017)</h3>
+          </div>
+          <!-- Award Card 2 -->
+          <div class="p-6 rounded-lg transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-light-dark-blue);">
+            <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/DLD%202018.png?raw=true" alt="DLD Award 2018" class="h-24 mx-auto">
+            <h3 class="mt-4 text-lg font-bold text-white">Real Estate Excellence Award — DLD (2018)</h3>
+          </div>
+          <!-- Credential Card 1 -->
+          <div class="p-6 rounded-lg transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-light-dark-blue);">
+            <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/Harvard%20Certificate.png?raw=true" alt="Harvard Certificate" class="h-24 mx-auto">
+            <h3 class="mt-4 text-lg font-bold text-white">INNOVATION AND ENTREPRENEURSHIP, Harvard University</h3>
+          </div>
+          <!-- Credential Card 2 -->
+          <div class="p-6 rounded-lg transition-transform transform hover:scale-105" style="background-color: var(--tech-trust-light-dark-blue);">
+            <img src="https://github.com/Alameenkhaled/New-Alameen/blob/main/CIPS%20Certificate.png?raw=true" alt="CIPS Certificate" class="h-24 mx-auto">
+            <h3 class="mt-4 text-lg font-bold text-white">Certified International Property Specialist</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Divider -->
     <div class="divider opacity-60"></div>
 
-    <!-- Final CTA Section -->
-    <section id="contact" class="final-cta">
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-16" style="background-color: var(--tech-trust-dark-blue);">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-display font-bold gold-text">Ready to Transform Your Real Estate Business?</h2>
-        <p class="mt-3 text-white/90 max-w-2xl mx-auto">
-          Schedule a complimentary 30-minute strategy session to identify your biggest opportunities for AI and blockchain transformation.
-        </p>
-        
-        <!-- Value Proposition -->
-        <div class="mt-8 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          <div class="text-center">
-            <div class="w-16 h-16 mx-auto rounded-full bg-blue-500/20 flex items-center justify-center mb-3">
-              <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-            <h3 class="font-semibold text-white">No Obligation</h3>
-            <p class="text-sm text-white/70 mt-1">Free consultation with no commitment</p>
-          </div>
-          
-          <div class="text-center">
-            <div class="w-16 h-16 mx-auto rounded-full bg-purple-500/20 flex items-center justify-center mb-3">
-              <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-            <h3 class="font-semibold text-white">Actionable Insights</h3>
-            <p class="text-sm text-white/70 mt-1">Leave with 3-5 specific recommendations</p>
-          </div>
-          
-          <div class="text-center">
-            <div class="w-16 h-16 mx-auto rounded-full bg-amber-500/20 flex items-center justify-center mb-3">
-              <svg class="w-8 h-8 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-              </svg>
-            </div>
-            <h3 class="font-semibold text-white">Proven Results</h3>
-            <p class="text-sm text-white/70 mt-1">267% average ROI for clients</p>
-          </div>
+        <div class="text-center">
+          <h2 class="text-3xl sm:text-4xl font-bold text-white">Get in Touch</h2>
+          <p class="mt-3 text-lg text-tech-trust-light-grey">Have a question? Interested in a partnership? We'd love to hear from you.</p>
         </div>
-        
-        <!-- CTA Buttons -->
-        <div class="mt-12 flex flex-wrap justify-center gap-4">
-          <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ35pitJoNQII4zYQMqzH7PE8iq1E_nVpGuBM5OyJCbVRhZ1C2GySAqEEO_92Z0juGlnYkr4uQTY?gv=true"
-             target="_blank" rel="noopener noreferrer"
-             class="shine btn-primary font-semibold px-8 py-4 rounded-xl text-lg active:scale-[.98] transition">
-            Book Free Strategy Session
-          </a>
-          <a href="mailto:alameen@example.com" 
-             class="btn-ghost font-semibold px-8 py-4 rounded-xl text-lg transition">
-            Email Directly
-          </a>
-        </div>
-        
-        <!-- Contact Info -->
-        <div class="mt-12 text-center text-white/70">
-          <p class="mb-2">Al Ameen Almajali</p>
-          <p class="mb-4">Digital Transformation Expert | AI & Blockchain Real Estate</p>
-          <div class="social-links">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-              </svg>
-            </a>
-            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-              </svg>
-            </a>
-          </div>
+        <div class="mt-12 max-w-2xl mx-auto p-8 rounded-lg" style="background-color: var(--tech-trust-light-dark-blue);">
+          <form>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <input type="text" placeholder="Your Name" class="p-3 rounded bg-white text-black">
+              <input type="email" placeholder="Your Email" class="p-3 rounded bg-white text-black">
+            </div>
+            <div class="mt-6">
+              <input type="text" placeholder="Subject" class="w-full p-3 rounded bg-white text-black">
+            </div>
+            <div class="mt-6">
+              <textarea placeholder="Message" rows="5" class="w-full p-3 rounded bg-white text-black"></textarea>
+            </div>
+            <div class="mt-6 text-center">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-[var(--bg1)] py-8 text-white/60 text-sm">
-    <div class="container mx-auto px-6 text-center">
+  <footer class="py-8" style="background-color: var(--tech-trust-light-dark-blue);">
+    <div class="container mx-auto px-6 text-center text-tech-trust-medium-grey">
       <p>&copy; 2024 Al Ameen Almajali. All rights reserved.</p>
-      <p class="mt-2">Digital Transformation Expert in Real Estate | AI & Blockchain Solutions</p>
+      <div class="mt-4 flex justify-center gap-6">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+      </div>
     </div>
   </footer>
 
@@ -1755,7 +1104,7 @@
     document.addEventListener('DOMContentLoaded', function() {
       // Initialize all functionality
       initLightbox();
-      
+
       // Add loading states to buttons
       document.querySelectorAll('a[href*="calendar.google.com"]').forEach(button => {
         button.addEventListener('click', function() {
